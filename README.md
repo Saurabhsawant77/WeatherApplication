@@ -29,4 +29,5 @@ This Weather Application allows users to select a city from a dropdown menu and 
 2. Before starting Run below commmand
   ```bash
   npm run build
+OR
   npx tailwindcss -i ./src/input.css -o ./public/style.css --watch;  
