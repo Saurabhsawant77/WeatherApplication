@@ -1,0 +1,30 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.weather-box{
+    background-image: linear-gradient(#090223a8,#ffffffd4);
+    box-shadow: gray;
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        font-size: 16px; 
+    }
+
+    .temperature-condition {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .humidity-wind {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .city-region-country{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+}
