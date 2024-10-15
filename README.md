@@ -28,4 +28,5 @@ This Weather Application allows users to select a city from a dropdown menu and 
    git clone https://github.com/Saurabhsawant77/WeatherApplication.git
 2. Before starting Run below commmand
   ```bash
-  npm run build 
+  npm run build
+  npx tailwindcss -i ./src/input.css -o ./public/style.css --watch;  
