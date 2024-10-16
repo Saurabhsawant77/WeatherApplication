@@ -11,7 +11,7 @@ async function callFetch(city) {
     try {
         const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=67528674eafe4d19810163326241310&q=${city}&aqi=no`);
         const data = await response.json();
-        console.log("In If",data)
+        console.log("Above If",data)
         if(!data.error){
         const icon = data.current.condition.icon;
         const condition = data.current.condition.text;
@@ -22,7 +22,6 @@ async function callFetch(city) {
         const cityName = data.location.name;
         const region = data.location.region;
         const country = data.location.country;
-
 
 
         dataContainer.innerHTML = `
